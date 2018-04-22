@@ -20,10 +20,6 @@
         <description>Where to store container logs.</description>
     </property>
     <property>
-        <name>mapreduce.shuffle.port</name>
-        <value>23080</value>
-    </property>
-    <property>
          <name>yarn.log-aggregation-enable</name>
          <value>true</value>
          <description>Whether to enable log aggregation</description>
