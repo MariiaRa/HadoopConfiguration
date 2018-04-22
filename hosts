@@ -1,0 +1,9 @@
+# Update /etc/hosts for master AND slave
+
+10.0.0.1    hadoop-master
+10.0.0.2    hadoop-slave-1
+10.0.0.3    hadoop-slave-2
+10.0.0.4    hadoop-slave-3
+10.0.0.5    hadoop-slave-4
+10.0.0.6    hadoop-slave-5
+10.0.0.7    hadoop-slave-6

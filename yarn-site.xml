@@ -1,0 +1,31 @@
+<configuration>
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>hadoop-master</value>
+        <description>The hostname of the RM.</description>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+        <description>Shuffle service that needs to be set for Map Reduce applications.</description>
+    </property>
+    <property>
+        <name>yarn.nodemanager.local-dirs</name>
+        <value>/opt/hadoop/dfs/yarn/local</value>
+        <description>List of directories to store localized files in.</description>
+    </property>
+    <property>
+        <name>yarn.nodemanager.log-dirs</name>
+        <value>/opt/hadoop/dfs/yarn/log</value>
+        <description>Where to store container logs.</description>
+    </property>
+    <property>
+        <name>mapreduce.shuffle.port</name>
+        <value>23080</value>
+    </property>
+    <property>
+         <name>yarn.log-aggregation-enable</name>
+         <value>true</value>
+         <description>Whether to enable log aggregation</description>
+    </property>
+</configuration>

@@ -1,0 +1,19 @@
+<configuration>
+    <property>
+        <name>dfs.data.dir</name>
+        <value>/opt/hadoop/hadoop/dfs/name/data</value>
+        <final>true</final>
+        <description>Determines where on the local filesystem an DFS data node should store its blocks. If this is a comma-delimited list of    directories, then data will be stored in all named directories, typically on different devices. Directories that do not exist are ignored.
+        </description>
+    </property>
+
+    <property>
+        <name>dfs.name.dir</name>
+        <value>/opt/hadoop/hadoop/dfs/name</value>
+        <final>true</final>         
+        <description>Determines where on the local filesystem the DFS name node should store the name table(fsimage). If this is a comma-delimited list of directories then the name table is replicated in all of the directories, for redundancy.
+        </description>
+    </property>
+</configuration>
+
+ 
